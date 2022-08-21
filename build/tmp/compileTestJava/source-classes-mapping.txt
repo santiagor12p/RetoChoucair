@@ -1,0 +1,4 @@
+com/choucair/technicalchallenge/runners/UserRegister.java
+ com.choucair.technicalchallenge.runners.UserRegister
+com/choucair/technicalchallenge/stepdefinitions/RegisterUserInUtestStepDefinitions.java
+ com.choucair.technicalchallenge.stepdefinitions.RegisterUserInUtestStepDefinitions
