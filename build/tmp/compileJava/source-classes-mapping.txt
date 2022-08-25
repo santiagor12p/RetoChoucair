@@ -2,15 +2,29 @@ com/choucair/technicalchallenge/exceptions/OpenTheBrowserException.java
  com.choucair.technicalchallenge.exceptions.OpenTheBrowserException
 com/choucair/technicalchallenge/runners/asd.java
  com.choucair.technicalchallenge.runners.asd
+com/choucair/technicalchallenge/userinterfaces/FillFromPage.java
+ com.choucair.technicalchallenge.userinterfaces.FillFromPage
 com/choucair/technicalchallenge/userinterfaces/InitialPage.java
  com.choucair.technicalchallenge.userinterfaces.InitialPage
 com/choucair/technicalchallenge/tasks/OpenTheBrowser.java
  com.choucair.technicalchallenge.tasks.OpenTheBrowser
-com/choucair/technicalchallenge/userinterfaces/GoToRegisterModulePage.java
- com.choucair.technicalchallenge.userinterfaces.GoToRegisterModulePage
-com/choucair/technicalchallenge/userinterfaces/FillFromPage.java
- com.choucair.technicalchallenge.userinterfaces.FillFromPage
-com/choucair/technicalchallenge/tasks/FillOutUserForm.java
- com.choucair.technicalchallenge.tasks.FillOutUserForm
 com/choucair/technicalchallenge/tasks/GoToRegisterModule.java
  com.choucair.technicalchallenge.tasks.GoToRegisterModule
+com/choucair/technicalchallenge/tasks/FillOutDevicesForm.java
+ com.choucair.technicalchallenge.tasks.FillOutDevicesForm
+com/choucair/technicalchallenge/userinterfaces/GoToRegisterModulePage.java
+ com.choucair.technicalchallenge.userinterfaces.GoToRegisterModulePage
+com/choucair/technicalchallenge/userinterfaces/FillPageLocation.java
+ com.choucair.technicalchallenge.userinterfaces.FillPageLocation
+com/choucair/technicalchallenge/tasks/FillOutLocationForm.java
+ com.choucair.technicalchallenge.tasks.FillOutLocationForm
+com/choucair/technicalchallenge/userinterfaces/FillPageDevices.java
+ com.choucair.technicalchallenge.userinterfaces.FillPageDevices
+com/choucair/technicalchallenge/questions/Answer.java
+ com.choucair.technicalchallenge.questions.Answer
+com/choucair/technicalchallenge/tasks/FillOutPassword.java
+ com.choucair.technicalchallenge.tasks.FillOutPassword
+com/choucair/technicalchallenge/userinterfaces/FillFromPassword.java
+ com.choucair.technicalchallenge.userinterfaces.FillFromPassword
+com/choucair/technicalchallenge/tasks/FillOutUserForm.java
+ com.choucair.technicalchallenge.tasks.FillOutUserForm

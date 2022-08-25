@@ -7,4 +7,4 @@ Feature: Register user in utest page
     Given the user is on the utest page
     And go to the register module
     When enter his dates in the module
-    Then shoul see the welcome message
+    Then should see the welcome message

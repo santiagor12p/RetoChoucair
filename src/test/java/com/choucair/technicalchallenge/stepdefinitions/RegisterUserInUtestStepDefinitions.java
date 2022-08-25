@@ -1,13 +1,13 @@
 package com.choucair.technicalchallenge.stepdefinitions;
 
-import com.choucair.technicalchallenge.tasks.FillOutUserForm;
-import com.choucair.technicalchallenge.tasks.GoToRegisterModule;
-import com.choucair.technicalchallenge.tasks.OpenTheBrowser;
+import com.choucair.technicalchallenge.questions.Answer;
+import com.choucair.technicalchallenge.tasks.*;
 import com.choucair.technicalchallenge.userinterfaces.InitialPage;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
 import static net.serenitybdd.screenplay.actors.OnStage.*;
@@ -29,11 +29,15 @@ private InitialPage page;
 
     @When("^enter his dates in the module$")
     public void enterHisDatesInTheModule() {
-        theActorInTheSpotlight().attemptsTo(FillOutUserForm.whitDates());
+        theActorInTheSpotlight().attemptsTo(FillOutUserForm.whitDates(),FillOutLocationForm.withLocationDates(),FillOutDevicesForm.whitDevicesDates(),
+                FillOutPassword.whitPassword());
+
     }
 
-    @Then("^shoul see the welcome message$")
-    public void shoulSeeTheWelcomeMessage() {
+    @Then("^should see the welcome message$")
+    public void shouldSeeTheWelcomeMessage() {
+        String question = "Welcome to the world's largest community of freelance software testers!";
+        theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 
 
