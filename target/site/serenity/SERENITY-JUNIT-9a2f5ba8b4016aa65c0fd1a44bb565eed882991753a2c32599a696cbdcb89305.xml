@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Register user in utest page" skipped="0" tests="1" time="43.1" timestamp="2022-08-24 08:46:02"><testcase name="Successfull register"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register user in utest page" skipped="0" tests="1" time="41.55" timestamp="2022-08-24 09:26:53"><testcase name="Successfull register"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.choucair.technicalchallenge.tasks.GoToRegisterModule.performAs(GoToRegisterModule.java:12)&#13;
+com.choucair.technicalchallenge.stepdefinitions.RegisterUserInUtestStepDefinitions.goToTheRegisterModule(RegisterUserInUtestStepDefinitions.java:27)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

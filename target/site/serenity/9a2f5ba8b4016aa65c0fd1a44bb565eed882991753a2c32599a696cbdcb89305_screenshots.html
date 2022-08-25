@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2022 20:46</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2022 21:26</span>
     <br style="clear:left"/>
 </div>
 
@@ -197,9 +197,9 @@ So that I login
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Successfull register
+                                <span class="failing-color">Successfull register
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -216,100 +216,62 @@ So that I login
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.choucair.technicalchallenge.tasks.GoToRegisterModule.performAs(GoToRegisterModule.java:12)<br />com.choucair.technicalchallenge.stepdefinitions.RegisterUserInUtestStepDefinitions.goToTheRegisterModule(RegisterUserInUtestStepDefinitions.java:27)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //a[@ui-sref='signup.personal'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>com.choucair.technicalchallenge.tasks.GoToRegisterModule.performAs(GoToRegisterModule.java :12)<br />com.choucair.technicalchallenge.stepdefinitions.RegisterUserInUtestStepDefinitions.goToTheRegisterModule(RegisterUserInUtestStepDefinitions.java :27)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="9207828a313ffda7fcf9abdebb30a99b3db84e21862005daf0545b071963cf97.png" title=" Given the user is on the utest page" width="1920"/>
-                <img src="9207828a313ffda7fcf9abdebb30a99b3db84e21862005daf0545b071963cf97.png" title=" The user open the browser" width="1920"/>
-                <img src="9207828a313ffda7fcf9abdebb30a99b3db84e21862005daf0545b071963cf97.png" title=" the user opens the Initial page" width="1920"/>
-                <img src="9207828a313ffda7fcf9abdebb30a99b3db84e21862005daf0545b071963cf97.png" title=" The user open the browser (completed)" width="1920"/>
-                <img src="9207828a313ffda7fcf9abdebb30a99b3db84e21862005daf0545b071963cf97.png" title=" Given the user is on the utest page (completed)" width="1920"/>
-                <img src="cb4cfdf8920e4cae7bfbf9908d60ff3c8e2c34a02c559c3e35d968129c4bda83.png" title=" And go to the register module" width="1920"/>
-                <img src="cb4cfdf8920e4cae7bfbf9908d60ff3c8e2c34a02c559c3e35d968129c4bda83.png" title=" The user go to register module" width="1920"/>
-                <img src="cb4cfdf8920e4cae7bfbf9908d60ff3c8e2c34a02c559c3e35d968129c4bda83.png" title=" the user clicks on Sign Up" width="1920"/>
-                <img src="cb4cfdf8920e4cae7bfbf9908d60ff3c8e2c34a02c559c3e35d968129c4bda83.png" title=" The user go to register module (completed)" width="1920"/>
-                <img src="cb4cfdf8920e4cae7bfbf9908d60ff3c8e2c34a02c559c3e35d968129c4bda83.png" title=" And go to the register module (completed)" width="1920"/>
-                <img src="e50ad1fe1025668c9bb4a5fe1adf2cb81c04c8b6287cb8c4841cea2870a519fe.png" title=" When enter his dates in the module" width="1920"/>
-                <img src="d37493e5dc7f5e18b41db187a78d91fb45aff738018ea2566525acb9a1da9e66.png" title=" The user fill out user form" width="1920"/>
-                <img src="4fe18c88143498b82c40c770d3a6cf2958ef1f8315a6eadc81519ad13baa2321.png" title=" the user enters 'Daniel Santiago' into Name" width="1920"/>
-                <img src="aff348ba59e187ea58cd9a65fb04491ddda2e07be3201742c9adc4ff948baea9.png" title=" the user enters 'Daniel Santiago' into Name (completed)" width="1920"/>
-                <img src="aff348ba59e187ea58cd9a65fb04491ddda2e07be3201742c9adc4ff948baea9.png" title=" the user enters 'Romero Plaza' into lastName" width="1920"/>
-                <img src="48e0b3e51715a7e1fef3c7ee48082462fe19b0ba25a48ce8aee407e30a0393a7.png" title=" the user enters 'Romero Plaza' into lastName (completed)" width="1920"/>
-                <img src="48e0b3e51715a7e1fef3c7ee48082462fe19b0ba25a48ce8aee407e30a0393a7.png" title=" the user enters 'pepp.perez@gmail.com' into Email Address" width="1920"/>
-                <img src="dd21b83cb4dfca8170dd772b68d5dddd960f132d98de4717b3c2217ca9986dd1.png" title=" the user enters 'pepp.perez@gmail.com' into Email Address (completed)" width="1920"/>
-                <img src="dd21b83cb4dfca8170dd772b68d5dddd960f132d98de4717b3c2217ca9986dd1.png" title=" the user enters 'August' into Birth Month" width="1920"/>
-                <img src="bd29d7458b2b46a83615febd3eb8b9ac79f507e66b20fb603c4358b2a3db1ac7.png" title=" the user enters 'August' into Birth Month (completed)" width="1920"/>
-                <img src="bd29d7458b2b46a83615febd3eb8b9ac79f507e66b20fb603c4358b2a3db1ac7.png" title=" the user enters '12' into Birth Day" width="1920"/>
-                <img src="83f0ea202e3bb059d0b1463cf30f1a1236d85742fc75dd1faf4e8babc1292c21.png" title=" the user enters '12' into Birth Day (completed)" width="1920"/>
-                <img src="83f0ea202e3bb059d0b1463cf30f1a1236d85742fc75dd1faf4e8babc1292c21.png" title=" the user enters '1998' into Birth Year" width="1920"/>
-                <img src="6a8753f300e49205631edbbc0cb8163849961e743609b49606f4c25a7bf1da54.png" title=" the user enters '1998' into Birth Year (completed)" width="1920"/>
-                <img src="6a8753f300e49205631edbbc0cb8163849961e743609b49606f4c25a7bf1da54.png" title=" the user enters 'Spanish' into Languages" width="1920"/>
-                <img src="947340ffa85da0ba2a80f19724291bfe79885de35f821252dba9167b59c2704c.png" title=" the user enters 'Spanish' into Languages (completed)" width="1920"/>
-                <img src="947340ffa85da0ba2a80f19724291bfe79885de35f821252dba9167b59c2704c.png" title=" the user clicks on Next" width="1920"/>
-                <img src="673bb67cb7c84cf606efbec947d17b54d2595d7730d3ad5bb62a2552628ab058.png" title=" the user clicks on Next (completed)" width="1920"/>
-                <img src="673bb67cb7c84cf606efbec947d17b54d2595d7730d3ad5bb62a2552628ab058.png" title=" The user fill out user form (completed)" width="1920"/>
-                <img src="673bb67cb7c84cf606efbec947d17b54d2595d7730d3ad5bb62a2552628ab058.png" title=" The user fill out location form" width="1920"/>
-                <img src="168df2977c0209fad9ac73e21eb3b6d2f9d778fb24fc21e0a0dfdf5c6c1f01ae.png" title=" the user enters 'Ibague' into City" width="1920"/>
-                <img src="e617db0f3f5ff2bbcff6209d878a43f6f3202506733419e8f84434fa456c91fc.png" title=" the user enters 'Ibague' into City (completed)" width="1920"/>
-                <img src="e617db0f3f5ff2bbcff6209d878a43f6f3202506733419e8f84434fa456c91fc.png" title=" the user types 'ARROW_DOWN' in City" width="1920"/>
-                <img src="d727f6ac718d6743cf1bbcdf19b0886b9b424a1fa100b0d7a56511a75b7e8267.png" title=" the user types 'ARROW_DOWN' in City (completed)" width="1920"/>
-                <img src="d727f6ac718d6743cf1bbcdf19b0886b9b424a1fa100b0d7a56511a75b7e8267.png" title=" the user types 'ENTER' in City" width="1920"/>
-                <img src="d9f7228d46411ee1ab879e40b79b8916f8889e9cd76a191f51bc33e78b24785f.png" title=" the user types 'ENTER' in City (completed)" width="1920"/>
-                <img src="d9f7228d46411ee1ab879e40b79b8916f8889e9cd76a191f51bc33e78b24785f.png" title=" the user enters '730001' into Postal Code" width="1920"/>
-                <img src="4ff3847ffaa533c8d9d6a975396192812e1c5c737b38973e6b1fa4abf800946a.png" title=" the user enters '730001' into Postal Code (completed)" width="1920"/>
-                <img src="4ff3847ffaa533c8d9d6a975396192812e1c5c737b38973e6b1fa4abf800946a.png" title=" the user clicks on Country Container" width="1920"/>
-                <img src="142fed7b31ea00d16054cd099ffd1aa3556976d79d6013cbe8902b5a134b93fb.png" title=" the user clicks on Country Container (completed)" width="1920"/>
-                <img src="142fed7b31ea00d16054cd099ffd1aa3556976d79d6013cbe8902b5a134b93fb.png" title=" the user enters 'Colombia' then hits ARROW_DOWN and ENTER into Country" width="1920"/>
-                <img src="a46a73d3933f3453dd43b0777ab82b095890e5fb70b2779e70df8aae564e9c65.png" title=" the user enters 'Colombia' then hits ARROW_DOWN and ENTER into Country (completed)" width="1920"/>
-                <img src="a46a73d3933f3453dd43b0777ab82b095890e5fb70b2779e70df8aae564e9c65.png" title=" the user clicks on Next" width="1920"/>
-                <img src="789cb24ef19cede4f1bae5f95e38768f69d0c7c804398092ef27e49f5ee0681f.png" title=" the user clicks on Next (completed)" width="1920"/>
-                <img src="789cb24ef19cede4f1bae5f95e38768f69d0c7c804398092ef27e49f5ee0681f.png" title=" The user fill out location form (completed)" width="1920"/>
-                <img src="789cb24ef19cede4f1bae5f95e38768f69d0c7c804398092ef27e49f5ee0681f.png" title=" The user fill out devices form" width="1920"/>
-                <img src="995986f05a3d0e762ac6863fa6e41b2b7c72dca7bf44dd3ecfcc086676de8ef1.png" title=" the user clicks on Os Computer Container" width="1920"/>
-                <img src="ec528986e85f0b494344ae3311015a7188a88247fd711c97240ddc9f39000970.png" title=" the user clicks on Os Computer Container (completed)" width="1920"/>
-                <img src="ec528986e85f0b494344ae3311015a7188a88247fd711c97240ddc9f39000970.png" title=" the user enters 'Windows' then hits ARROW_DOWN and ENTER into Os Computer " width="1920"/>
-                <img src="22a1282d021c156ec652bed430d10ed8efac41af806a4ba60db60a82f38a1627.png" title=" the user enters 'Windows' then hits ARROW_DOWN and ENTER into Os Computer  (completed)" width="1920"/>
-                <img src="22a1282d021c156ec652bed430d10ed8efac41af806a4ba60db60a82f38a1627.png" title=" the user clicks on Version Container" width="1920"/>
-                <img src="fdcdfa10479ba4c9c8d9938caa90fbd23e94832e0a330841d194e437d45f4e9c.png" title=" the user clicks on Version Container (completed)" width="1920"/>
-                <img src="fdcdfa10479ba4c9c8d9938caa90fbd23e94832e0a330841d194e437d45f4e9c.png" title=" the user enters '10' then hits ARROW_DOWN and ENTER into Version" width="1920"/>
-                <img src="c4015f92b1766b328b7537a3bbec783e03a4e118310e4a2858fd4b02946d6389.png" title=" the user enters '10' then hits ARROW_DOWN and ENTER into Version (completed)" width="1920"/>
-                <img src="c4015f92b1766b328b7537a3bbec783e03a4e118310e4a2858fd4b02946d6389.png" title=" the user clicks on Language Container" width="1920"/>
-                <img src="77b73499573b03ebccaf9d22b49dd18c54c880ada9a4ff81976bbcb194bd780c.png" title=" the user clicks on Language Container (completed)" width="1920"/>
-                <img src="77b73499573b03ebccaf9d22b49dd18c54c880ada9a4ff81976bbcb194bd780c.png" title=" the user enters 'Spanish' then hits ARROW_DOWN and ENTER into Language" width="1920"/>
-                <img src="b8a23e70838abf1a03663bce42055e8c154ece700ccaa0fade49bbc4cf7d54bf.png" title=" the user enters 'Spanish' then hits ARROW_DOWN and ENTER into Language (completed)" width="1920"/>
-                <img src="b8a23e70838abf1a03663bce42055e8c154ece700ccaa0fade49bbc4cf7d54bf.png" title=" the user clicks on Mobile Device Container" width="1920"/>
-                <img src="119e6cc6c5132ffd5694686ff854dff60a713e32af9caff230de3932b0c839e8.png" title=" the user clicks on Mobile Device Container (completed)" width="1920"/>
-                <img src="119e6cc6c5132ffd5694686ff854dff60a713e32af9caff230de3932b0c839e8.png" title=" the user enters 'Motorola' then hits ARROW_DOWN and ENTER into Mobile Device" width="1920"/>
-                <img src="d0e663c433392ffab533e3e4f3aef5517642c32f0d8ed95d5663208e31be1c22.png" title=" the user enters 'Motorola' then hits ARROW_DOWN and ENTER into Mobile Device (completed)" width="1920"/>
-                <img src="d0e663c433392ffab533e3e4f3aef5517642c32f0d8ed95d5663208e31be1c22.png" title=" the user clicks on Model Container" width="1920"/>
-                <img src="39fd438017bee4d3628a28b6c1baf72f63c804e571933238ec91b21d4a3cb06b.png" title=" the user clicks on Model Container (completed)" width="1920"/>
-                <img src="39fd438017bee4d3628a28b6c1baf72f63c804e571933238ec91b21d4a3cb06b.png" title=" the user enters 'Moto G60' then hits ARROW_DOWN and ENTER into Model" width="1920"/>
-                <img src="c0a4c0193a260322d580290be677b4d233043a623726a6d2cbe76c00eeda0b14.png" title=" the user enters 'Moto G60' then hits ARROW_DOWN and ENTER into Model (completed)" width="1920"/>
-                <img src="c0a4c0193a260322d580290be677b4d233043a623726a6d2cbe76c00eeda0b14.png" title=" the user clicks on Os Mobile Container" width="1920"/>
-                <img src="00234c1cb8aff73a66ba51f317b38c3ea79b116ad858d618000a51135c54564f.png" title=" the user clicks on Os Mobile Container (completed)" width="1920"/>
-                <img src="00234c1cb8aff73a66ba51f317b38c3ea79b116ad858d618000a51135c54564f.png" title=" the user enters 'Android 11' then hits ARROW_DOWN and ENTER into Os Mobile" width="1920"/>
-                <img src="4992d2c8f890003dd507f2301bd307cd2de5e6442ba2aba691cfedddaa0abb1a.png" title=" the user enters 'Android 11' then hits ARROW_DOWN and ENTER into Os Mobile (completed)" width="1920"/>
-                <img src="4992d2c8f890003dd507f2301bd307cd2de5e6442ba2aba691cfedddaa0abb1a.png" title=" the user clicks on Next Final" width="1920"/>
-                <img src="f61d16a045c7f8da2d6275cef2f16c2525158ffde8237495aa866a9b81751b23.png" title=" the user clicks on Next Final (completed)" width="1920"/>
-                <img src="f61d16a045c7f8da2d6275cef2f16c2525158ffde8237495aa866a9b81751b23.png" title=" The user fill out devices form (completed)" width="1920"/>
-                <img src="f61d16a045c7f8da2d6275cef2f16c2525158ffde8237495aa866a9b81751b23.png" title=" The user fill out password" width="1920"/>
-                <img src="4cbbf70ae2854fad70efe96d7c1e93e43b38e54ec90b76f4f7e5966f0c87d0ff.png" title=" the user enters 'Soylomejor123' into Password" width="1920"/>
-                <img src="8cf42bfc0549070a054785682fbffbcb2307a1123246ada9f31fc313c61dc705.png" title=" the user enters 'Soylomejor123' into Password (completed)" width="1920"/>
-                <img src="8cf42bfc0549070a054785682fbffbcb2307a1123246ada9f31fc313c61dc705.png" title=" the user enters 'Soylomejor123' into Confirm Password" width="1920"/>
-                <img src="13914f147ed56e7d0f44dd51a09dd37339de712836f399f608714decc464dcb7.png" title=" the user enters 'Soylomejor123' into Confirm Password (completed)" width="1920"/>
-                <img src="13914f147ed56e7d0f44dd51a09dd37339de712836f399f608714decc464dcb7.png" title=" the user clicks on Stay Informed" width="1920"/>
-                <img src="2bb4ac4d969cb90095840b1fd3e519e53d4041a6385d4a54d92242ed4cd3ec83.png" title=" the user clicks on Stay Informed (completed)" width="1920"/>
-                <img src="2bb4ac4d969cb90095840b1fd3e519e53d4041a6385d4a54d92242ed4cd3ec83.png" title=" the user clicks on Accept Terms" width="1920"/>
-                <img src="24470f7247df55d8182e60dda3a217ceeb450b0fd919183fdc014212a7c55865.png" title=" the user clicks on Accept Terms (completed)" width="1920"/>
-                <img src="24470f7247df55d8182e60dda3a217ceeb450b0fd919183fdc014212a7c55865.png" title=" the user clicks on Accept Privacy" width="1920"/>
-                <img src="940ae0b4774242391c83b07cbf9aac959898bd228e34918810a4c761facb792e.png" title=" the user clicks on Accept Privacy (completed)" width="1920"/>
-                <img src="940ae0b4774242391c83b07cbf9aac959898bd228e34918810a4c761facb792e.png" title=" the user clicks on Complete Setup" width="1920"/>
-                <img src="62a4eb8a355f12d0c02871404b0c393b809ac6b63b147276fb9e90e68a6e77f2.png" title=" the user clicks on Complete Setup (completed)" width="1920"/>
-                <img src="62a4eb8a355f12d0c02871404b0c393b809ac6b63b147276fb9e90e68a6e77f2.png" title=" The user fill out password (completed)" width="1920"/>
-                <img src="62a4eb8a355f12d0c02871404b0c393b809ac6b63b147276fb9e90e68a6e77f2.png" title=" When enter his dates in the module (completed)" width="1920"/>
-                <img src="498a3a8c9592c805e0fd3bef7bd0ee39620eefa8a95076ec8fa3bbe19ea83ad4.png" title=" Then should see the welcome message" width="1920"/>
-                <img src="498a3a8c9592c805e0fd3bef7bd0ee39620eefa8a95076ec8fa3bbe19ea83ad4.png" title=" Then answer" width="1920"/>
-                <img src="5c2d4f02f32dd836f88a9827636de764eb7c458d80c31963b4f39d733bc5a5e0.png" title=" Then answer (completed)" width="1920"/>
-                <img src="5c2d4f02f32dd836f88a9827636de764eb7c458d80c31963b4f39d733bc5a5e0.png" title=" Then should see the welcome message (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" Given the user is on the utest page" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" The user open the browser" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" the user opens the Initial page" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" The user open the browser (completed)" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" Given the user is on the utest page (completed)" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" And go to the register module" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" The user go to register module" width="1920"/>
+                <img src="2d020f373a9548a86ff9d83a1835e714f77d3b006329dc0d08c6e39290d126c9.png" title=" the user clicks on Sign Up: <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 
